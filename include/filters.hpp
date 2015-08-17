@@ -15,6 +15,7 @@ class Filters
 
 enum FILTERS_IMPLEMENTATIONS {
     OPENCV,
+	KUKLINA,
     // Add your enum value here
     // YOUR_NAME,
     NUM_IMPLS

@@ -2,13 +2,15 @@
 
 Filters* createFiltersOpenCV();
 // Declare your implementation here
-// Filters* createFiltersYourName();
+Filters* createFiltersKuklina();
 
 Filters* createFilters(FILTERS_IMPLEMENTATIONS impl)
 {
     switch (impl) {
         case OPENCV:
             return createFiltersOpenCV();
+		case KUKLINA:
+			return createFiltersKuklina(); 
         // Add case for your implementation
         // case YOUR_NAME:
         //     return createFiltersYourName();
